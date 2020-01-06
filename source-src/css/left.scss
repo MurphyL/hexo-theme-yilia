@@ -63,20 +63,6 @@
 				}
 			}
 		}
-		.header-smart-menu {
-			font-size: 12px;
-			margin-bottom: 20px;
-			a {
-				&:after {
-					content: '/'
-				}
-				&:last-child {
-					&:after {
-						content: ''
-					}
-				}
-			}
-		}
 		.profilepic{
 			text-align: center;
 			display: block;
@@ -108,7 +94,6 @@
 		.header-author{
 			text-align: center;
 			margin: 0.67em 0;
-			font-family: Roboto, "Roboto", serif;
 			font-size: 30px;
 			transition: 0.3s;
 		}

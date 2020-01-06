@@ -11,20 +11,12 @@
 		<% if (theme.subtitle){ %>
 		<p class="header-subtitle"><%=theme.subtitle%></p>
 		<%}%>
-
 		<nav class="header-menu">
 			<ul>
 			<% for (var i in theme.menu){ %>
 				<li><a href="<%- url_for(theme.menu[i]) %>"><%= i %></a></li>
-	        <%}%>
+	        <% } %>
 			</ul>
-		</nav>
-		<nav class="header-smart-menu">
-    		<% for (var i in theme.smart_menu){ %>
-    			<% if(theme.smart_menu[i]){ %>
-    			<a q-on="click: openSlider(e, '<%-i%>')" href="javascript:void(0)"><%= theme.smart_menu[i] %></a>
-    			<% } %>
-            <%}%>
 		</nav>
 		<nav class="header-nav">
 			<div class="social">
